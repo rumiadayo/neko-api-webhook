@@ -2,7 +2,7 @@ import json
 import requests
 import time
 
-WEBHOOK_URL = "https://discord.com/api/webhooks/11996507707156846/0BZFkILKH1YOZ7qfNzVJzS70EAQaBGSnQp5GnPSRZqXkg6Ni0rMUYsMZWM_oayAwFhAO"
+WEBHOOK_URL = "https://discord.com/api/webhooks/"
 
 while True:
     resp = requests.get("https://nekos.best/api/v2/neko")
